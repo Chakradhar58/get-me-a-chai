@@ -39,7 +39,7 @@ const PaymentPage = ({ username }) => {
         }
         router.push(`/${username}`)
      
-    }, [searchParams, username, router])
+    }, [])
     
 
     const handleChange = (e) => {
